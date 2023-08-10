@@ -1,7 +1,7 @@
 "use client";
 
-import { Comment } from "../../components/Comment";
-import { PostOwner } from "../../components/PostOwner";
+import { Comment } from "@/components/Comment";
+import { PostOwner } from "@/components/PostOwner";
 import { comments } from "@/libs/comments";
 
 export default function HomePage() {
@@ -20,7 +20,7 @@ export default function HomePage() {
           image={"/profileImages/profile.jpg"}
           fullname={"Chayathon Punpang"}
           studentId={640610690}
-          post={"Quiz ง่ายจังเลยครับ ขอยาก ๆ กว่านี้ได้ไหม #261207"}
+          post={"Quiz ง่ายจังเลยครับ ขอยาก ๆ กว่านี้ได้ไหม #261207 "}
           like={100}
         />
         {/* Comment Example */}
